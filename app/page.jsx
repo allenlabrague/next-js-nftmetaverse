@@ -15,7 +15,7 @@ import { Image } from "@nextui-org/image";
 
 const Home = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Navbar />
       <Hero />
       <div className="flex items-center justify-center my-28">

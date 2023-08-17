@@ -193,4 +193,8 @@ export const FooterDetails = [
   },
 ];
 
-export const social = [{ image: "" }, { image: "" }, { image: "" }];
+export const social = [
+  { image: "/discord.png" },
+  { image: "/instagran.png" },
+  { image: "/twit.png" },
+];
