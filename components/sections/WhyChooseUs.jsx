@@ -25,7 +25,14 @@ const WhyChooseUs = () => {
       </motion.h2>
       <div className="flex flex-wrap items-center justify-center gap-7">
         {WhyChooseUsDetails.map((choose, index) => (
-          <WhyChooseUsCard key={choose.key} {...choose} index={index} />
+          <WhyChooseUsCard
+            key={choose.key}
+            image={choose.image}
+            number={choose.number}
+            title={choose.title}
+            subtitle={choose.subtitle}
+            index={index}
+          />
         ))}
       </div>
     </motion.div>

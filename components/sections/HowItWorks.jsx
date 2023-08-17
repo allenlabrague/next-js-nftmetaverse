@@ -26,7 +26,14 @@ const HowItWorks = () => {
       <div>
         {HowItWorksImage.map((works, index) => (
           <>
-            <HowItWorksImageCard key={works.key} {...works} index={index} />
+            <HowItWorksImageCard
+              key={works.key}
+              image={works.image}
+              number={works.number}
+              title={works.title}
+              subtitle={works.subtitle}
+              index={index}
+            />
           </>
         ))}
       </div>

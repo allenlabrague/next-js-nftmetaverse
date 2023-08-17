@@ -82,7 +82,11 @@ const Hero = () => {
             whileInView="show"
             key={url.key}
           >
-            <Image src={url.image} alt="hero image" className="w-[125px]" />
+            <Image
+              src={url.image}
+              alt="hero image"
+              className="w-[125px] rounded-none"
+            />
           </motion.div>
         ))}
       </div>

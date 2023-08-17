@@ -63,7 +63,7 @@ export const WalletConnectedDetails = [
 export const HowItWorksImage = [
   {
     image: "/how-it-works1.png",
-    key: "img-1",
+    key: "wallet",
     number: "1",
     title: "Setup and connect your wallet.",
     subtitle:
@@ -71,7 +71,7 @@ export const HowItWorksImage = [
   },
   {
     image: "/how-it-works2.png",
-    key: "img-2",
+    key: "digital",
     number: "2",
     title: "Create your own digital artwork.",
     subtitle:
@@ -79,7 +79,7 @@ export const HowItWorksImage = [
   },
   {
     image: "/how-it-works3.png",
-    key: "img-3",
+    key: "platform",
     number: "3",
     title: "Choose a platform to sell your NFT.",
     subtitle:
@@ -90,47 +90,99 @@ export const HowItWorksImage = [
 export const RoadmapDetails = [
   {
     number: "1",
+    key: "planning",
     title: "Planning",
     subtitle:
       "Quality comes first. we took our time to plan out everything and build our production pipeline for a good quality artworks.",
+    image: "/roadmap-1.png",
   },
   {
     number: "2",
+    key: "production",
     title: "Production",
     subtitle:
       "Quality comes first. we took our time to plan out everything and build our production pipeline for a good quality artworks.",
+    image: "/roadmap-2.png",
   },
   {
     number: "3",
+    key: "launch",
     title: "Launch",
     subtitle:
       "Quality comes first. we took our time to plan out everything and build our production pipeline for a good quality artworks.",
+    image: "/roadmap-3.png",
   },
   {
     number: "4",
+    key: "minting",
     title: "Minting",
     subtitle:
       "Quality comes first. we took our time to plan out everything and build our production pipeline for a good quality artworks.",
+    image: "/roadmap-4.png",
   },
   {
     number: "5",
+    key: "new-nfts",
     title: "New Nfts",
     subtitle:
       "Quality comes first. we took our time to plan out everything and build our production pipeline for a good quality artworks.",
+    image: "/roadmap-5.png",
   },
   {
     number: "6",
+    key: "metaverse",
     title: "Metaverse",
     subtitle:
       "Quality comes first. we took our time to plan out everything and build our production pipeline for a good quality artworks.",
+    image: "/roadmap-6.png",
   },
 ];
 
 export const ArtistsDetails = [
-  { image: "", title: "Steps Jobs" },
-  { image: "", title: "Andry Moray" },
-  { image: "", title: "Zaid Ed" },
-  { image: "", title: "Laila Ed" },
+  {
+    image: "/ava1.png",
+    title: "Steps Jobs",
+    subtitle: "Artist",
+    key: "steps",
+    social: [
+      { image: "/discord.png" },
+      { image: "/instagran.png" },
+      { image: "/twit.png" },
+    ],
+  },
+  {
+    image: "/ava2.png",
+    title: "Andry Moray",
+    subtitle: "Blockchain",
+    key: "andry",
+    social: [
+      { image: "/discord.png" },
+      { image: "/instagran.png" },
+      { image: "/twit.png" },
+    ],
+  },
+  {
+    image: "/ava3.png",
+    title: "Zaid Ed",
+    subtitle: "Developer",
+    key: "zaid",
+    social: [
+      { image: "/discord.png" },
+      { image: "/instagran.png" },
+      { image: "/twit.png" },
+    ],
+  },
+  {
+    image: "/ava4.png",
+    title: "Laila Ed",
+    subtitle: "Marketing",
+    key: "laila",
+    social: [
+      { image: "/discord.png" },
+      { image: "/instagran.png" },
+      { image: "/twit.png" },
+    ],
+  },
 ];
 
 export const FooterDetails = [
