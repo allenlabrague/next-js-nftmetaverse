@@ -1,9 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Avatar, AvatarGroup } from "@nextui-org/avatar";
 import { Button } from "@nextui-org/button";
-import { Image } from "@nextui-org/image";
 import { BsLink45Deg } from "react-icons/bs";
 import { staggerContainer, slideIn, textVariant } from "@/utils/motion";
 import Example from "../CollectionsCard";
@@ -18,7 +16,7 @@ const Collections = () => {
       className="mt-10 px-10"
     >
       <motion.h2
-        variants={textVariant(1)}
+        variants={textVariant(0.4)}
         className="font-bold text-3xl text-center my-16"
       >
         Nerko's{" "}
@@ -33,7 +31,7 @@ const Collections = () => {
         <Example />
       </motion.div>
       <motion.div
-        variants={textVariant(1.3)}
+        variants={textVariant(0.7)}
         className="flex items-center justify-center"
       >
         <Button

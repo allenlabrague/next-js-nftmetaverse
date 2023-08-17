@@ -75,12 +75,12 @@ const Hero = () => {
       {/* ARRAY IMAGES IN COMPANIES */}
 
       <div className="flex flex-wrap items-center justify-center gap-7 my-16">
-        {HeroImage.map((url, index) => (
+        {HeroImage.map((url) => (
           <motion.div
             variants={textVariant(0.5)}
             initial="hidden"
             whileInView="show"
-            key={index.key}
+            key={url.key}
           >
             <Image src={url.image} alt="hero image" className="w-[125px]" />
           </motion.div>

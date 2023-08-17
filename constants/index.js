@@ -15,29 +15,6 @@ export const HeroImage = [
   { image: "/exodus.png", key: "exodus" },
 ];
 
-export const CollectionDetails = [
-  {
-    key: "metaverse",
-    title: "Metaverse",
-    author: "TheSalvare",
-  },
-  {
-    key: "polly-doll",
-    title: "Polly Doll",
-    author: "TheNative",
-  },
-  {
-    key: "alec-art",
-    title: "Alec Art",
-    author: "GeorgZvic",
-  },
-  {
-    key: "toxic-poeth",
-    title: "Toxic Poeth",
-    author: "YazoiLup",
-  },
-];
-
 export const CollectionImage = [
   "/collections1.png",
   "/collections2.png",
@@ -47,24 +24,28 @@ export const CollectionImage = [
 
 export const WhyChooseUsDetails = [
   {
+    key: "collection",
     image: "/choose1.png",
     title: "Huge collection",
     subtitle:
       "A collection of 890 unique Nerkos built to go beyond the digital space.",
   },
   {
+    key: "quality",
     image: "/choose2.png",
     title: "Huge quality",
     subtitle:
       "The nerko’s collection includes dozens of rare costumes ands colorways of artist's.",
   },
   {
+    key: "huge",
     image: "/choose3.png",
     title: "Huge quality",
     subtitle:
       "Tasty design resources made with care for each pixel. NFTs and game resources.",
   },
   {
+    key: "community",
     image: "/choose4.png",
     title: "Big community",
     subtitle:
@@ -79,25 +60,28 @@ export const WalletConnectedDetails = [
   { title: "2.5x", subtitle: "Estimated value" },
 ];
 
-export const HowItWorksDetails = [
+export const HowItWorksImage = [
   {
+    image: "/how-it-works1.png",
+    key: "img-1",
     number: "1",
     title: "Setup and connect your wallet.",
-    image: "/how-it-works1.png",
     subtitle:
       "Use Trust Wallet, Metamask or any wallet to connect to multiple chains the app.",
   },
   {
+    image: "/how-it-works2.png",
+    key: "img-2",
     number: "2",
     title: "Create your own digital artwork.",
-    image: "/how-it-works2.png",
     subtitle:
       "Quality comes first. we took our time to plan out everything and build our production pipeline for a good quality artwork's & digital artwork.",
   },
   {
+    image: "/how-it-works3.png",
+    key: "img-3",
     number: "3",
     title: "Choose a platform to sell your NFT.",
-    image: "/how-it-works3.png",
     subtitle:
       "Earn ETH and BIT for all your NFTs that you sell on our marketplace.",
   },
