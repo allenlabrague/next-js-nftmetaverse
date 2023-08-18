@@ -12,11 +12,11 @@ const Minting = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className="mt-10 bg-[url(/bg-minting.png)] bg-center bg-no-repeat bg-cover flex flex-col items-center justify-center h-[400px]"
+      className="mt-10 bg-[url(/bg-minting.png)] md:bg-[url(/bg-lg-minting.png)] bg-center bg-no-repeat bg-cover flex flex-col items-center justify-center h-[500px]"
     >
       <motion.h2
         variants={textVariant(0.4)}
-        className="font-bold text-3xl text-center"
+        className="font-bold text-3xl text-center md:text-4xl lg:text-5xl"
       >
         Let's start{" "}
         <span className="bg-gradient-to-tr from-purple-800 to-pink-600 bg-clip-text text-transparent">

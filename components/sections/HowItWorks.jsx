@@ -12,11 +12,11 @@ const HowItWorks = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className="mt-10 px-10"
+      className="mt-10 px-10 lg:px-0 lg:my-32 lg:w-[80%] lg:mx-auto"
     >
       <motion.h2
         variants={textVariant(0.2)}
-        className="font-bold text-3xl text-center my-16"
+        className="font-bold text-3xl text-center my-16 md:text-4xl lg:text-5xl"
       >
         How{" "}
         <span className="bg-gradient-to-tr from-purple-800 to-pink-600 bg-clip-text text-transparent">

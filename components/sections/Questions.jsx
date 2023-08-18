@@ -13,11 +13,11 @@ const Questions = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className="mt-10 px-10"
+      className="mt-10 px-10 lg:px-0 lg:my-32 lg:w-[80%] lg:mx-auto"
     >
       <motion.h2
         variants={textVariant(0.2)}
-        className="font-bold text-3xl text-center my-16"
+        className="font-bold text-3xl text-center my-16 md:text-4xl lg:text-5xl"
       >
         Your questions,{" "}
         <span className="bg-gradient-to-tr from-purple-800 to-pink-600 bg-clip-text text-transparent">
@@ -25,7 +25,10 @@ const Questions = () => {
         </span>
       </motion.h2>
       <motion.div variants={textVariant(0.4)}>
-        <Accordion defaultExpandedKeys={["1"]}>
+        <Accordion
+          defaultExpandedKeys={["1"]}
+          className="md:w-[50%] mx-auto p-7 border-1 border-gray-400 rounded-3xl"
+        >
           <AccordionItem
             key="1"
             aria-label="Accordion 1"

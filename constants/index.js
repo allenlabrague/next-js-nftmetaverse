@@ -1,6 +1,6 @@
 export const NavLinks = [
   { href: "/", key: "home", text: "Home" },
-  { href: "/", key: "collection", text: "Collection}" },
+  { href: "/", key: "collection", text: "Collection" },
   { href: "/", key: "choose", text: "Choose" },
   { href: "/", key: "about", text: "About" },
   { href: "/", key: "roadmap", text: "Roadmap" },
@@ -20,6 +20,13 @@ export const CollectionImage = [
   "/collections2.png",
   "/collections3.png",
   "/collections4.png",
+];
+
+export const CollectionImageWeb = [
+  { image: "/collections1.png", key: "collection1" },
+  { image: "/collections2.png", key: "collection2" },
+  { image: "/collections3.png", key: "collection3" },
+  { image: "/collections4.png", key: "collection4" },
 ];
 
 export const WhyChooseUsDetails = [

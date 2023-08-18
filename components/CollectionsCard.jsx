@@ -6,7 +6,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import { wrap } from "framer-motion";
 import { CollectionImage } from "@/constants";
 import { CollectionSlideImage } from "@/utils/motion";
-import { CollectionDetails } from "@/constants";
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 
 const Example = () => {
@@ -23,7 +22,7 @@ const Example = () => {
 
   return (
     <>
-      <div className="flex items-center justify-center w-full relative">
+      <div className="flex items-center justify-center relative">
         <AnimatePresence initial={false} custom={direction}>
           <motion.img
             key={page}
@@ -49,7 +48,7 @@ const Example = () => {
                 paginate(-1);
               }
             }}
-            className="w-full relative"
+            className="relative"
           />
         </AnimatePresence>
       </div>

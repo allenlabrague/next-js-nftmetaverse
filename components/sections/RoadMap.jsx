@@ -12,18 +12,18 @@ const RoadMap = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className="mt-10 px-10"
+      className="mt-10 px-10 lg:px-0 lg:my-32 lg:w-[80%] lg:mx-auto"
     >
       <motion.h2
         variants={textVariant(0.2)}
-        className="font-bold text-3xl text-center my-16"
+        className="font-bold text-3xl text-center my-16 md:text-4xl lg:text-5xl"
       >
         Nerko's{" "}
         <span className="bg-gradient-to-tr from-purple-800 to-pink-600 bg-clip-text text-transparent">
           Roadmap
         </span>
       </motion.h2>
-      <div className="flex flex-col items-center justify-center gap-7">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
         {RoadmapDetails.map((map, index) => (
           <RoadMapCard
             key={map.key}

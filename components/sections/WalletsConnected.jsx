@@ -15,7 +15,7 @@ const WalletsConnected = () => {
     >
       <motion.div
         variants={textVariant(0.4)}
-        className="flex flex-col items-center flex-wrap gap-8"
+        className="flex flex-col md:flex-row items-center justify-center flex-wrap gap-8"
       >
         {WalletConnectedDetails.map((index) => (
           <div key={index.title}>
